@@ -123,8 +123,8 @@ jobs:
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           procfile: 'worker: npm start'
         env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-          DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
+          HD_DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          HD_DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
 ```
 
 ## License
